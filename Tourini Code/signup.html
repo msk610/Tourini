@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+	<!-- Meta Data --> 
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<!-- End of Meta Data -->
+
+	<!-- title -->
+	<title>Sign Up</title>
+	<!-- End of title -->
+
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<!-- End of Bootstrap -->
+
+	<!-- Ubuntu Font -->
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
+	<!-- End of Ubuntu Font -->
+
+	<!-- Animation CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
+	<!-- End of Animation CSS -->
+
+	<!-- Page CSS -->
+	<link rel="stylesheet" href="css/signup.css">
+	<!-- End of Page CSS -->
+		
+	<!-- Page JS -->
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script> 
+	<script src="js/signup.js"></script>
+	<script src="js/imgur.js"></script>
+		
+</head>
+<body>
+	<!-- Container -->
+	<div class="container">
+		<div class="row fadeInRight animated" id="topOfpage">
+			<div id="signup-form" class="col-sm-6 col-sm-offset-3">
+				<div id="box">
+					<h3>Sign Up</h3>
+					<form id="signup" action="new_user.php" method="get" enctype="#" id="">
+						<div id="user-box"></div>
+						<div style="width:50%; margin: 0 auto">    
+							Change Profile Picture 
+							<input id="picload" type='file' accept="image/*" />
+						</div>
+						<img  id="myImg" class="img-responsive img-circle img-thumbnail" src="http://i.imgur.com/hGPj1gn.png" alt="Profile Pic">
+						<input id="picture" name="picture" type="hidden" value="http://i.imgur.com/hGPj1gn.png" value="">
+						<div id="fname-box"></div>
+						<div id="lname-box"></div>
+						<div id="dob-box"></div>
+						<div id="inner"><br>
+							<p>What is your Gender?</p>
+							<INPUT TYPE="Radio" Name="gender" Value=0>Male
+								<INPUT TYPE="Radio" Name="gender" Value=1>Female
+									<INPUT TYPE="Radio" Name="gender" Value=2>Other	
+									</div>
+									<div id="password-box"></div>
+									<div id="password-retype-box"></div>
+									<input id="signup-button" type="image" value="submit" src="http://i.imgur.com/ff62HXo.png" alt="Login Button" onMouseOver="this.src = 'http://i.imgur.com/vo5qMY7.png'" onMouseOut="this.src= 'http://i.imgur.com/ff62HXo.png'">
+								</form>
+								<div id="line"></div>
+							</div>
+						</div>
+					</div>
+					<!-- Bottom of Page -->
+					<hr id= "bottomline" class="fadeInRight animated">
+					<footer class="fadeInRight animated">
+						Copyright © 2016 MD Kabir and Jason Rosenstein. All rights reserved. Last Updated: April 28 2016
+					</footer>
+					<!-- End of Bottom of Page -->
+
+				</div>
+				<!-- End of Container -->
+
+				<!-- Scripts -->
+				<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+				<script src="https://fb.me/react-0.13.3.min.js"></script>
+				<script src="js/signup.js"></script>
+				<!-- End of Scripts -->
+			</body>
+			</html>

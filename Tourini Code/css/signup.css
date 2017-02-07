@@ -1,0 +1,43 @@
+body{ 
+	background: url("http://www.hdwallpapers.in/walls/thailand_beach_sunset-wide.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#box{
+	background: #A8A8A8;
+}
+h3{
+	background: #909090;
+	text-align: center;
+	padding-top: 0;
+	margin-top: 0;
+	width: 100%;
+	margin-top: 10%;
+	font-weight: bold;
+}
+#inner{
+   	 text-align: center; 
+}
+#myImg{
+   	 width: 20%; 
+}
+
+input.form-control{
+	margin-left: 25%;
+	width: 50%;
+}
+#signup-button{
+	width: 50%;
+	margin-left: 25%;
+}
+#line{
+	margin-top: 7px;
+	height: 10px;
+	background-color: #707070; 
+}
+footer{
+	text-align: center;
+	color: white;
+}

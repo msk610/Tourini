@@ -1,0 +1,117 @@
+#newsfeed{
+  overflow-y: scroll;
+  height: 750px;
+}
+body{ 
+  font-style: Ubuntu;
+  background-color: #ECE1F4;
+}
+.navbar-inverse{
+  background-color: #3e1f57;
+}
+.navbar-brand {
+  padding: 0;
+}
+h2#user-fullname {    padding-left: 30px;}
+h3#set-info {    padding-left: 45px;}
+#logo{
+  width: 30%;
+  margin-left: 10%;
+  margin-top: 1.5%;
+}
+#modal-search{
+  margin-right:100px;
+}
+#options{
+  color: white;
+}
+#home,#adduser,#notification{
+  color: white;
+}
+#profilepic{
+  width: 75%;
+}
+#side-nav{
+  text-align: center;
+}
+.btn-group { 
+  color: #FFFFFF; 
+  background-color: #4D1399; 
+  border-color: #13074F; 
+} 
+
+.btn-group:hover, 
+.btn-group:focus, 
+.btn-group:active, 
+.btn-group.active, 
+.open .dropdown-toggle.btn-group { 
+  color: #FFFFFF; 
+  background-color: #49247A; 
+  border-color: #13074F; 
+} 
+
+.btn-group:active, 
+.btn-group.active, 
+.open .dropdown-toggle.btn-group { 
+  background-image: none; 
+} 
+
+.btn-group.disabled, 
+.btn-group[disabled], 
+fieldset[disabled] .btn-group, 
+.btn-group.disabled:hover, 
+.btn-group[disabled]:hover, 
+fieldset[disabled] .btn-group:hover, 
+.btn-group.disabled:focus, 
+.btn-group[disabled]:focus, 
+fieldset[disabled] .btn-group:focus, 
+.btn-group.disabled:active, 
+.btn-group[disabled]:active, 
+fieldset[disabled] .btn-group:active, 
+.btn-group.disabled.active, 
+.btn-group[disabled].active, 
+fieldset[disabled] .btn-group.active { 
+  background-color: #4D1399; 
+  border-color: #13074F; 
+} 
+
+.btn-group .badge { 
+  color: #4D1399; 
+  background-color: #FFFFFF; 
+}
+#content{
+  border-left: 10px solid #3e1f57;
+  background: #f5f0fa;
+}
+.tabContent {
+  display:none;
+}
+.image-preview-input {
+  position: relative;
+  overflow: hidden;
+  margin: 0px;    
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;    
+}
+.image-preview-input input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.image-preview-input-title {
+  margin-left:2px;
+}
+.nav-tabs,a{
+  color:purple;
+  font-weight: bold;
+}
+#bbb{
+  text-align: center;
+}

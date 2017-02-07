@@ -1,0 +1,85 @@
+body{ 
+  background: url("http://www.hdwallpapers.in/walls/thailand_beach_sunset-wide.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#title{
+    color: white;
+    margin-top: 3%;
+    margin-left: 25%;
+}
+h1{
+    margin-top: 8.5%;
+}
+#form{
+    width: auto;
+    height: 375px;
+    background-image: url("http://i.imgur.com/stAThuP.png");
+}
+#user-box{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+#pwd-box{
+    width: 80%;
+    margin-left: 10%;
+}
+#login-button{
+    width: 70%;
+    margin-left: 15%;
+}
+#check-box{
+    margin-left: 10%;
+    color: white;
+}
+#a-1{
+    color: white;
+}
+input.form-control{
+    background-color: #4c4c4c;
+    color: white;
+}
+.input-group-addon{
+    background-color: #4c4c4c;
+}
+input:focus{
+    background-color: #2a2a2a;
+}
+hr{
+    width: 50%;
+}
+#sign-up{
+    position: absolute;
+    top: 79%;
+    color: white;
+}
+#subtitle{
+    color: white;
+    -webkit-animation-delay: .5s; /* Chrome, Safari, Opera */
+    animation-delay: .5s;
+}
+
+#signup-pic{
+    width: 40%;
+    left: 80%;
+}
+.signInForm {
+    -webkit-animation-delay: 1.2s; /* Chrome, Safari, Opera */
+    animation-delay: 1.2s;
+    margin-top: 4%;
+    margin-left: 7%;
+}
+#page-form-header{
+    color: white;
+    text-align: center;
+}
+footer,#bottomline{
+    text-align: center;
+    color: white;
+    -webkit-animation-delay: 2s; /* Chrome, Safari, Opera */
+    animation-delay: 2s;
+}
